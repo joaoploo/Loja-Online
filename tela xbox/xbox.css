@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.titulo{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.bgnav{
+    background-color: grey;
+}
+.col{
+    text-align: center;
+}
+.botao{
+    text-decoration: none;
+}
+.btn.btn-dark{
+    padding: 5px;
+    margin:0px;
+    background-color:black;
+    color: white;
+    bottom: unset;
+    text-align: center;
+    width: 190px;
+    
+}
+.btn.btn-dark:hover{
+    background-color: gray;
+    color: black;
+}
+.img-responsive{
+    padding: 15px;
+}
+.zoom {
+	overflow: none;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.3);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.card-border-0{
+    padding: 0px;
+    margin: 0px;
+    width: 1px;
+    height: 10px;
+}
+.row-row,.cols-1,
+.row-cols,.md-3,.g-4{
+    display: auto;
+    padding: 0px;
+    margin: 4px;;
+}
+.click button{
+    padding: 5px;
+    margin: 0px;
+    background-color:black;
+    color: white;
+    bottom: unset;
+    text-align: center;
+    width: 190px;
+}
+.navbar{
+    background-color: #d4cece;
+    color: #191919;
+    
+}
+.container-fluid{
+    color: #191919;
+}
+.btn{
+    margin-right: 30px;
+}
+.card{
+    border: #fff;
+}

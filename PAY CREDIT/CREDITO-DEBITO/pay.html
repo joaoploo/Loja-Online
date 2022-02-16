@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pay.css">
+  <title>tela primaria</title>
+</head>
+
+<body>
+  <div>
+
+  
+  <div class="checkout-panel">
+    <div class="panel-body text-center">
+      <h2 class="title">Tela de Pagamento</h2>
+  
+      <div class="progress-bar">
+        <div class="step active"></div>
+        <div class="step active"></div>
+        <div class="step"></div>
+        <div class="step"></div>
+      </div>
+  
+      <div class="payment-method">
+        <label for="card" class="method card">
+          <div class="card-logos">
+            <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
+            <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
+          </div>
+  
+          <div class="radio-input">
+            <input id="card" type="radio" name="Pagamento">
+            <tr>
+              <td>
+                <label>Pagar com Cartão de Crédito / Débito:</label>
+              </td>
+          </tr>
+          </div>
+        </label>
+  
+        <label for="paypal" class="method paypal">
+        <img src="https://cdn.awsli.com.br/404/404737/arquivos/PIX.png" style="margin: 0 0 0 5px;" alt="Pague com Pix">
+
+          <div class="radio-input">
+            <input id="card" type="radio" name="Pagamento">
+            <tr>
+              <td>
+                <label>Pagar com PIX:</label>
+              </td>
+          </tr>
+          </div>
+        </label>
+      </div>
+  
+    <div class="panel-footer">
+      <form method="get" action="/TELA PRINCIPAL/index.html">
+        <button class="btn back-btn" type="submit">Voltar</button>
+    </form>
+
+      <form method="get" action="../PAGAMENTO/PG.HTML">
+        <button class="btn back-btn" type="submit">Próximo</button>
+    </form>
+    </div>
+  </div>
+
+ <link rel="stylesheet" href="pay.js">
+</body>
+</html>
